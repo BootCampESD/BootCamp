@@ -20,7 +20,7 @@ jobs:
 
     steps:
       - name: Download BootCampESD.pkg
-        run: curl -fsSLo BootCampESD.pkg https://swcdn.apple.com/content/downloads/08/36/041-96204/w1q0ukl3x12fbeee41ex7lgjt82h7zrdn4/BootCampESD.pkg
+        run: curl -fsSLo BootCampESD.pkg https://swcdn.apple.com/content/downloads/10/11/001-04272/up3eig0wm5slvensvxyem836jceudix2vz/BootCampESD.pkg
 
       - name: Extract BootCampESD.pkg
         run: |
